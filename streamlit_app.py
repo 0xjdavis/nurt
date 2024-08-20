@@ -46,7 +46,7 @@ st.set_page_config(
 
 # Sidebar for API Key and User Info
 st.sidebar.header("About App")
-st.sidebar.markdown('This is a multithreaded chatbot with OpenAI GPT 3.5 capable of iteration created by <a href="https://ai.jdavis.xyz" target="_blank">0xjdavis</a>.', unsafe_allow_html=True)
+st.sidebar.markdown('This is a multithreaded chatbot with OpenAI GPT 3.5 capable of iteration where the chatbot only responds when triggered created by <a href="https://ai.jdavis.xyz" target="_blank">0xjdavis</a>.', unsafe_allow_html=True)
 
 openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
 username = st.sidebar.text_input("Enter your username:")
