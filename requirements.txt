@@ -1,6 +1,6 @@
 streamlit
 openai
-json
+jsonlib
 os
 time
 hashlib
