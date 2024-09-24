@@ -38,7 +38,7 @@ EMOJI_LIST = [
 
 # Setting page layout
 st.set_page_config(
-    page_title="Multithread Chatbot with OpenAI GPT 3.5",
+    page_title="Multithread Chatbot with OpenAI GPT 3.5 with a Bot Trigger",
     page_icon="✨",
     layout="centered",
     initial_sidebar_state="expanded"
@@ -66,8 +66,9 @@ else:
     chatroom_messages = read_chat_history()
 
     # Show title and description.
-    st.title("Multithread Chatbot with OpenAI GPT 3.5")
+    st.title("Multithread Chatbot with OpenAI GPT 3.5 with a Bot Trigger")
     st.write("This is a multi-user chatroom where one participant is an AI chatbot.")
+    st.write("Use the word `nurt` to trigger the bot.")
 
     # Display all chatroom messages with user icons and tooltips
     for message in chatroom_messages:
